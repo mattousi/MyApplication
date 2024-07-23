@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448609706503",
+    "project_id": "foodquiz-40929",
+    "storage_bucket": "foodquiz-40929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448609706503:android:18828f639f42d6ca99c0a2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzJoUS9fdzL3-1C-y-_D-Ne37GzSgvkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

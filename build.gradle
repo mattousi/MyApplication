@@ -1,0 +1,20 @@
+// Exemple avec une version stable (ajustez le numéro de version si nécessaire)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:7.4.2')
+        classpath 'com.google.gms:google-services:4.3.15'
+
+        def nav_version = '2.4.1'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+    }
+
+    allprojects {
+        repositories {
+            google()  // Ajoutez le référentiel Maven de Google
+            mavenCentral()
+        }}
+}
